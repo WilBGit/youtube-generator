@@ -1,0 +1,35 @@
+# Secrets and provider configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*
+*credential*
+*secret*
+*token*
+*oauth*
+
+# Generated media and local output
+output/
+media/
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webm
+
+# Python and OS files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+._*
