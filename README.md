@@ -1,7 +1,5 @@
 # Faceless YouTube Video Generator
 
-[![CI](https://github.com/WilBGit/youtube-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/WilBGit/youtube-generator/actions/workflows/ci.yml)
-
 A local-first pipeline for producing short faceless market-analysis videos from a ticker and a script. It creates a script template or accepts a written script, generates chart-style visual cards, selects an available text-to-speech backend, and combines the assets into an MP4 with ffmpeg.
 
 ## Included
